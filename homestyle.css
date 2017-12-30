@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Apr, 2017, 6:47:30 PM
+    Author     : VIDHI RATHI
+*/
+
+.w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}
+.w3-top{top:95px;}
+.gomad{
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+    text-align:center;
+    background-color:lightgray;
+    font-size:3.1em;
+	font-weight:900;
+        padding:0px;
+        padding-bottom:5px;
+        font:italic bold Georgia;
+        font:status bar;
+        font-family:cursive;
+}
+
+.mad{
+    z-index:2;
+        background-color:lightgray;
+	color:black;
+        font-family:cursive;
+	text-align: center;
+	font-size:1.4em;
+	font-weight:200;
+        padding-top:0px;
+        padding-bottom:0px;
+        position: fixed;
+        top:69px;/* Set the navbar to fixed position */
+    /* Position the navbar at the top of the page */
+    width: 100%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    align-items: center;
+    background-color:lightgray;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.ig{
+   border:3px white solid;
+   padding:2px;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+    background-color: lightgray;
+    
+}
